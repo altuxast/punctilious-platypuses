@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AdvGamesProgramming",
+			"Path": "C:\\Users\\drcag\\Downloads\\SPR_2022\\41024 Advanced Games Programming\\Week 11\\AGP_A4\\Source\\AdvGamesProgramming.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AdvGamesProgrammingEditor",
+			"Path": "C:\\Users\\drcag\\Downloads\\SPR_2022\\41024 Advanced Games Programming\\Week 11\\AGP_A4\\Source\\AdvGamesProgrammingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
