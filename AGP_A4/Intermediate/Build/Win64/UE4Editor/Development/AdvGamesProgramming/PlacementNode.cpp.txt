@@ -1,0 +1,2 @@
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
+c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\PlacementNode.h

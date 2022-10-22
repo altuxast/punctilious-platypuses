@@ -1,5 +1,5 @@
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
-c:\users\drcag\downloads\spr_2022\41024 advanced games programming\week 11\agp_a4\source\advgamesprogramming\EnemyCharacter.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
+c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\EnemyCharacter.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
@@ -21,11 +21,11 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AIModule\Classes\GenericTeamAgentInterface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAgentInterface.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionTypes.generated.h
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\EnemyCharacter.generated.h
-c:\users\drcag\downloads\spr_2022\41024 advanced games programming\week 11\agp_a4\source\advgamesprogramming\AIManager.h
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\AIManager.generated.h
-c:\users\drcag\downloads\spr_2022\41024 advanced games programming\week 11\agp_a4\source\advgamesprogramming\NavigationNode.h
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\NavigationNode.generated.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\EnemyCharacter.generated.h
+c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\AIManager.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\AIManager.generated.h
+c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\NavigationNode.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\NavigationNode.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
@@ -54,5 +54,5 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionSystem.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionComponent.generated.h
-c:\users\drcag\downloads\spr_2022\41024 advanced games programming\week 11\agp_a4\source\advgamesprogramming\HealthComponent.h
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\HealthComponent.generated.h
+c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\HealthComponent.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\HealthComponent.generated.h

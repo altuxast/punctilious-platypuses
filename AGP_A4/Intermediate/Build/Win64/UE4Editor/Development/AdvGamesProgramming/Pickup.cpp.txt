@@ -1,6 +1,6 @@
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
-c:\users\drcag\downloads\spr_2022\41024 advanced games programming\week 11\agp_a4\source\advgamesprogramming\Pickup.h
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\Pickup.generated.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
+c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\Pickup.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\Pickup.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

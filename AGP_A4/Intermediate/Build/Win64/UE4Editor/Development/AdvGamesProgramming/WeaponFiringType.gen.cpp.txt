@@ -1,4 +1,4 @@
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\drcag\Downloads\SPR_2022\41024 Advanced Games Programming\Week 11\AGP_A4\Source\AdvGamesProgramming/WeaponFiringType.h
+C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Source\AdvGamesProgramming/WeaponFiringType.h
