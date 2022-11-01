@@ -1,4 +1,6 @@
 C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
 c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\SectionPlacement.h
 c:\users\drcag\onedrive\documents\github\punctilious-platypuses\agp_a4\source\advgamesprogramming\PlacementNode.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public\ProceduralMeshComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent\ProceduralMeshComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

@@ -66,7 +66,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProcedurallyGeneratedMap); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AProcedurallyGeneratedMap)
 
 
-#define AGP_A4_Source_AdvGamesProgramming_ProcedurallyGeneratedMap_h_13_PRIVATE_PROPERTY_OFFSET
+#define AGP_A4_Source_AdvGamesProgramming_ProcedurallyGeneratedMap_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__PillarClass() { return STRUCT_OFFSET(AProcedurallyGeneratedMap, PillarClass); }
+
+
 #define AGP_A4_Source_AdvGamesProgramming_ProcedurallyGeneratedMap_h_10_PROLOG
 #define AGP_A4_Source_AdvGamesProgramming_ProcedurallyGeneratedMap_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

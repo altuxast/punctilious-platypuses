@@ -3,6 +3,7 @@
 
 #include "ProcedurallyGeneratedMap.h"
 #include "KismetProceduralMeshLibrary.h"
+#include "EngineUtils.h"
 #include "AIManager.h"
 
 // Sets default values
@@ -16,6 +17,9 @@ AProcedurallyGeneratedMap::AProcedurallyGeneratedMap()
 	PerlinScale = 1000.0f;
 	PerlinRoughness = 0.1f;
 	bRegenerateMap = false;
+
+	NumberOfNodes = 10;
+
 }
 
 // Called when the game starts or when spawned
@@ -33,9 +37,15 @@ void AProcedurallyGeneratedMap::Tick(float DeltaTime)
 	if (bRegenerateMap)
 	{
 		ClearMap();
+		ClearPillars();
+		
 		GenerateMap();
+		GenerateRandomPositions();
+		
 		bRegenerateMap = false;
+
 	}
+
 }
 
 bool AProcedurallyGeneratedMap::ShouldTickIfViewportsOnly() const
@@ -70,12 +80,13 @@ void AProcedurallyGeneratedMap::GenerateMap()
 
 	MeshComponent->CreateMeshSection(0, Vertices, Triangles, Normals, UVCoords, TArray<FColor>(), Tangents, true);
 
-	UE_LOG(LogTemp, Warning, TEXT("Vertices Count: %i | UVCoords Count: %i | Triangles Count: %i"), Vertices.Num(), UVCoords.Num(), Triangles.Num())
+	//UE_LOG(LogTemp, Warning, TEXT("Vertices Count: %i | UVCoords Count: %i | Triangles Count: %i"), Vertices.Num(), UVCoords.Num(), Triangles.Num());
 
 	if (AIManager)
 	{
 		AIManager->GenerateNodes(Vertices, Width, Height);
 	}
+
 }
 
 void AProcedurallyGeneratedMap::ClearMap()
@@ -86,3 +97,87 @@ void AProcedurallyGeneratedMap::ClearMap()
 	MeshComponent->ClearAllMeshSections();
 }
 
+void AProcedurallyGeneratedMap::PlaceNodesOnMap()
+{
+	// Do something
+}
+
+//FVector AProcedurallyGeneratedMap::GetRandomVertexOnMap()
+//{
+//	return Vertices[FMath::FRandRange(0, Vertices.Num() - 1)];
+//}
+//
+//TArray<int32> AProcedurallyGeneratedMap::GenerateRandomIntegers(int32 MaxNumberOfNodes) const
+//{
+//	TArray<int32> RandomIntegers;
+//	int32 RandomInteger;
+//	int32 Index = 0;
+//	bool MatchFound = false;
+//
+//	if (RandomIntegers.Num() > 0)
+//	{
+//		RandomIntegers.Add(RandomInteger);
+//	}
+//	else
+//	{
+//		if (RandomIntegers.Num() < MaxNumberOfNodes)
+//		{
+//			for (int32 i = 0; i < MaxNumberOfNodes; i++)
+//			{
+//				RandomInteger = FMath::RandRange(0, Vertices.Num() - 1);
+//				while (!MatchFound)
+//				{
+//					if (RandomIntegers[Index] == RandomInteger)
+//					{
+//						MatchFound = true;
+//					}
+//					else
+//					{
+//						RandomIntegers.Add(RandomInteger);
+//						Index < RandomIntegers.Num() ? Index++ : Index = 0;
+//					}
+//				}
+//			}
+//		}
+//	}
+//
+//	return RandomIntegers;
+//}
+
+int32 AProcedurallyGeneratedMap::CoinToss()
+{
+	return FMath::RandRange(0, 1);
+}
+
+void AProcedurallyGeneratedMap::GenerateRandomPositions()
+{
+	if (NumberOfNodes > 0)
+	{
+		TArray<int32> RandomIntegers;
+		for (int32 i = 0; i < NumberOfNodes; i++)
+		{
+			RandomIntegers.Add(FMath::RandRange(0, Vertices.Num() - 1));
+		}
+		for (int32 j = 0; j < RandomIntegers.Num(); j++)
+		{
+			RandomPositions.Add(Vertices[RandomIntegers[j]]);
+		}
+		for (auto RandomPosition : RandomPositions)
+		{
+			Pillars.Add(GetWorld()->SpawnActor<AActor>(PillarClass, RandomPosition, FRotator(0.f, 0.f, 0.f)));
+		}
+	}
+
+}
+
+void AProcedurallyGeneratedMap::ClearPillars()
+{
+	if (Pillars.Num() > 0)
+	{
+		for (int32 i = Pillars.Num() - 1; i > 0; i--)
+		{
+			Pillars[i]->Destroy();
+			Pillars.Pop();
+		}
+	}
+}

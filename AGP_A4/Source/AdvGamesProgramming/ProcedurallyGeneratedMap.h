@@ -61,4 +61,41 @@ public:
 
 	void ClearMap();
 
+	TArray<AActor*> Pillars;
+
+	UPROPERTY(EditAnywhere)
+	int32 NumberOfNodes;
+
+	// My stuff
+private:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = World, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<AActor> PillarClass;
+
+	//void SpawnItem(UClass* ItemToSpawn);
+
+	void PlaceNodesOnMap();
+
+	int32 CoinToss();
+
+	void GenerateRandomPositions();
+	void ClearPillars();
+
+	TArray<FVector> RandomPositions;
+
+/*	FVector GetRandomVertexOnMap();
+
+	TArray<int32> GenerateRandomIntegers(int32 MaxNumberOfNodes) const*/;
+
+	float TileWidth;
+	//float GridHeight;
+	float WorldBoundX;
+	float WorldBoundY;
+	float Radius;
+
+	FVector TopLeft;
+	FVector BottomRight;
+
+	//int32 GridSizeX;
+	//int32 GridSizeY;
+
 };

@@ -13,16 +13,16 @@ SectionPlacement::SectionPlacement()
 	SplitChancePercent = 0.5f;
 }
 
-SectionPlacement::SectionPlacement(UStaticMeshComponent* TileMesh)
-{
-	UnitLength = 200.f;
-	SplitChancePercent = 0.5f;
-
-	PlacementGridX = (int)TileMesh->Bounds.GetBox().GetSize().X / UnitLength;
-	PlacementGridY = (int)TileMesh->Bounds.GetBox().GetSize().Y / UnitLength;
-	SectionMinX = 2;
-	SectionMinY = 2;
-}
+//SectionPlacement::SectionPlacement(UStaticMeshComponent* TileMesh)
+//{
+//	UnitLength = 200.f;
+//	SplitChancePercent = 0.5f;
+//
+//	PlacementGridX = (int)TileMesh->Bounds.GetBox().GetSize().X / UnitLength;
+//	PlacementGridY = (int)TileMesh->Bounds.GetBox().GetSize().Y / UnitLength;
+//	SectionMinX = 2;
+//	SectionMinY = 2;
+//}
 
 SectionPlacement::~SectionPlacement()
 {

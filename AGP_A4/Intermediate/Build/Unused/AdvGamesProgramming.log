@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses).
+  Building AdvGamesProgrammingEditor...
+  Using Visual Studio 2017 14.16.27048 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] ProcedurallyGeneratedMap.cpp
+    [2/4] UE4Editor-AdvGamesProgramming.lib
+       Creating library C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.lib and object C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.exp
+    [3/4] UE4Editor-AdvGamesProgramming.dll
+       Creating library C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.suppressed.lib and object C:\Users\drcag\OneDrive\Documents\GitHub\punctilious-platypuses\AGP_A4\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.suppressed.exp
+    [4/4] AdvGamesProgrammingEditor.target
+  Total time in Parallel executor: 13.04 seconds
+  Total execution time: 13.81 seconds

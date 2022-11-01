@@ -20,6 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedMap() {}
 	PROCEDURALMESHCOMPONENT_API UClass* Z_Construct_UClass_UProceduralMeshComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AAIManager_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AProcedurallyGeneratedMap::execGenerateMap)
 	{
@@ -107,6 +109,14 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedMap() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIManager_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AIManager;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NumberOfNodes_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_NumberOfNodes;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PillarClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_PillarClass;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -193,6 +203,21 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedMap() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_AIManager = { "AIManager", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedMap, AIManager), Z_Construct_UClass_AAIManager_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_AIManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_AIManager_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_NumberOfNodes_MetaData[] = {
+		{ "Category", "ProcedurallyGeneratedMap" },
+		{ "ModuleRelativePath", "ProcedurallyGeneratedMap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_NumberOfNodes = { "NumberOfNodes", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedMap, NumberOfNodes), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_NumberOfNodes_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_NumberOfNodes_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_PillarClass_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "World" },
+		{ "ModuleRelativePath", "ProcedurallyGeneratedMap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_PillarClass = { "PillarClass", nullptr, (EPropertyFlags)0x0044000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedMap, PillarClass), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_PillarClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_PillarClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_MeshComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_Width,
@@ -204,6 +229,8 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedMap() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_Vertices_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_Vertices,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_AIManager,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_NumberOfNodes,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::NewProp_PillarClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AProcedurallyGeneratedMap_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AProcedurallyGeneratedMap>::IsAbstract,
@@ -232,7 +259,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedMap() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProcedurallyGeneratedMap, 1852267755);
+	IMPLEMENT_CLASS(AProcedurallyGeneratedMap, 3892060802);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AProcedurallyGeneratedMap>()
 	{
 		return AProcedurallyGeneratedMap::StaticClass();
