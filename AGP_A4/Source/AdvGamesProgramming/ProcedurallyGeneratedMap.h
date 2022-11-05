@@ -73,12 +73,14 @@ private:
 
 	//void SpawnItem(UClass* ItemToSpawn);
 
-	void PlaceNodesOnMap();
+	//void PlaceNodesOnMap();
 
-	int32 CoinToss();
+	//int32 CoinToss();
 
 	void GenerateRandomPositions();
 	void ClearPillars();
+
+	void FindBounds();
 
 	TArray<FVector> RandomPositions;
 
@@ -86,14 +88,14 @@ private:
 
 	TArray<int32> GenerateRandomIntegers(int32 MaxNumberOfNodes) const*/;
 
-	float TileWidth;
+	//float TileWidth;
 	//float GridHeight;
-	float WorldBoundX;
-	float WorldBoundY;
-	float Radius;
+	float BoundX;
+	float BoundY;
+	//float Radius;
 
-	FVector TopLeft;
-	FVector BottomRight;
+	//FVector TopLeft;
+	//FVector BottomRight;
 
 	//int32 GridSizeX;
 	//int32 GridSizeY;

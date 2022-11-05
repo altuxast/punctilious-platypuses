@@ -13,6 +13,7 @@ SectionPlacement::SectionPlacement()
 	SplitChancePercent = 0.5f;
 }
 
+// This SectionPlacement has been replaced by a templated variant
 //SectionPlacement::SectionPlacement(UStaticMeshComponent* TileMesh)
 //{
 //	UnitLength = 200.f;

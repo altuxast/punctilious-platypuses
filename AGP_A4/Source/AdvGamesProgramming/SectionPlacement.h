@@ -13,9 +13,11 @@ class SectionPlacement
 {
 public:
 	SectionPlacement();
-	template <typename ProceduralMapType> SectionPlacement(ProceduralMapType* TileMesh) 
+
+	// This templated SectionPlacement variant has been replaced the original 
+	template <typename ProceduralMapType> SectionPlacement(ProceduralMapType* TileMesh, float& GridSize) 
 	{
-		UnitLength = 200.f;
+		UnitLength = GridSize;
 		SplitChancePercent = 0.5f;
 	
 		PlacementGridX = (int)TileMesh->Bounds.GetBox().GetSize().X / UnitLength;

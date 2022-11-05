@@ -39,7 +39,7 @@ void AProceduralWorld::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	TSharedPtr<SectionPlacement> TheFloor(new SectionPlacement(TileMesh));
+	TSharedPtr<SectionPlacement> TheFloor(new SectionPlacement(TileMesh, TileWidth));
 	TheFloor->Partition();
 	TheFloor->DrawSectionNodes(GetWorld());
 
