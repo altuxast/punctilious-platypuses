@@ -239,10 +239,10 @@ void SectionPlacement::DrawSectionNodes(UWorld* World)
 void SectionPlacement::DrawSectionNode(UWorld* World, FBoundCoords BoundCoords)
 {
 	// Set coords for a single cell
-	const FVector UpperLeft(BoundCoords.UpperLeftX * UnitLength, BoundCoords.UpperLeftY * UnitLength, 1.f);
-	const FVector UpperRight(BoundCoords.LowerRightX * UnitLength, BoundCoords.UpperLeftY * UnitLength, 1.f);
-	const FVector LowerLeft(BoundCoords.UpperLeftX * UnitLength, BoundCoords.LowerRightY * UnitLength, 1.f);
-	const FVector LowerRight(BoundCoords.LowerRightX * UnitLength, BoundCoords.LowerRightY * UnitLength, 1.f);
+	const FVector UpperLeft(BoundCoords.UpperLeftX * UnitLength, BoundCoords.UpperLeftY * UnitLength, 350.f);
+	const FVector UpperRight(BoundCoords.LowerRightX * UnitLength, BoundCoords.UpperLeftY * UnitLength, 350.f);
+	const FVector LowerLeft(BoundCoords.UpperLeftX * UnitLength, BoundCoords.LowerRightY * UnitLength, 350.f);
+	const FVector LowerRight(BoundCoords.LowerRightX * UnitLength, BoundCoords.LowerRightY * UnitLength, 350.f);
 
 	// Draw that cell according to coords
 	//

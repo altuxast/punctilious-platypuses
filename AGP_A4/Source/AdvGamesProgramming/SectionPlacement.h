@@ -22,6 +22,7 @@ public:
 	
 		PlacementGridX = (int)TileMesh->Bounds.GetBox().GetSize().X / UnitLength;
 		PlacementGridY = (int)TileMesh->Bounds.GetBox().GetSize().Y / UnitLength;
+
 		SectionMinX = 2;
 		SectionMinY = 2;
 	};

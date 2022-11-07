@@ -32,6 +32,11 @@ void AProcedurallyGeneratedMap::BeginPlay()
 	ClearPillars();
 	GenerateRandomPositions();
 
+	TSharedPtr<SectionPlacement> TheTerrain(new SectionPlacement(MeshComponent, GridSize));
+
+	TheTerrain->Partition();
+	TheTerrain->DrawSectionNodes(GetWorld());
+
 }
 
 // Called every frame
